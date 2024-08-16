@@ -1,0 +1,14 @@
+{
+  "generators": {
+    "criar-um-entrypoint": {
+      "factory": "./src/generators/criar-um-entrypoint/generator",
+      "schema": "./src/generators/criar-um-entrypoint/schema.json",
+      "description": "criar-um-entrypoint generator"
+    },
+    "converter-entry-para-projeto": {
+      "factory": "./src/generators/converter-entry-para-projeto/generator",
+      "schema": "./src/generators/converter-entry-para-projeto/schema.json",
+      "description": "converter-entry-para-projeto generator"
+    }
+  }
+}

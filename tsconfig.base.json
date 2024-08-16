@@ -1,0 +1,28 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@test-integrated/test-entrypoint": ["libs/test-entrypoint/src/index.ts"],
+      "my-library": ["libs/my-library/src/index.ts"],
+      "my-library/button": ["libs/my-library/button/src/index.ts"],
+      "my-library/calendar": ["libs/my-library/calendar/src/index.ts"],
+      "my-library/primeiro-entry-point": [
+        "libs/my-library/primeiro-entry-point/src/index.ts"
+      ]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
